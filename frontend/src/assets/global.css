@@ -1,0 +1,286 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .input {
+    @apply rounded-full border border-stone-200 px-4 py-2 text-sm transition-all duration-300 placeholder:text-stone-400 focus:outline-none focus:ring focus:ring-yellow-400 md:px-6 md:py-3;
+  }
+  .slider {
+    /* @apply bg-red-500 mt-[-0.5rem] h-2 w-4 cursor-pointer appearance-none rounded-full; */
+  }
+  .cabinet-link {
+    @apply relative flex h-[50px] items-center border-b border-[#E2E9F2] transition-all duration-300 after:absolute after:left-0 after:top-0 after:z-0 after:h-full after:w-0 after:bg-[#F5F8FC] after:transition-all  after:duration-300 after:content-[''] last:border-b-0 hover:after:w-full sm:h-[70px] md:after:w-[60px];
+    @apply relative flex h-[50px] items-center border-b border-[#E2E9F2] transition-all duration-300 after:absolute after:left-0 after:top-0 after:z-0 after:h-full after:w-0 after:bg-[#F5F8FC]  after:transition-all after:duration-300 after:content-[''] last:border-b-0 hover:after:w-full sm:h-[70px];
+  }
+  /* .slider::-webkit-slider-thumb {
+    @apply border-2 border-white bg-red-500 h-6 w-6  rounded-full   appearance-none cursor-pointer ;
+  } */
+  .scrollbar::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+    box-shadow: 0px 20px 50px 0px rgba(2, 36, 86, 0.05);
+  }
+
+  .scrollbar::-webkit-scrollbar-track {
+    border-radius: 100vh;
+    background: #e3e9f2;
+    box-shadow: 0px 20px 50px 0px rgba(2, 36, 86, 0.05);
+  }
+
+  .scrollbar::-webkit-scrollbar-thumb {
+    background: #e31e24;
+    border-radius: 100vh;
+    box-shadow: 0px 20px 50px 0px rgba(2, 36, 86, 0.05);
+  }
+
+  .scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #e31e24;
+    box-shadow: 0px 20px 50px 0px rgba(2, 36, 86, 0.05);
+  }
+}
+
+@font-face {
+  font-family: 'Formular';
+  src: url('/public/font/Formular-BlackItalic.eot');
+  src: local('Formular Black Italic'), local('Formular-BlackItalic'),
+    url('/public/font/Formular-BlackItalic.eot?#iefix')
+      format('embedded-opentype'),
+    url('/public/font/Formular-BlackItalic.woff2') format('woff2'),
+    url('/public/font/Formular-BlackItalic.woff') format('woff'),
+    url('/public/font/Formular-BlackItalic.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Formular';
+  src: url('/public/font/Formular-MediumItalic.eot');
+  src: local('Formular Medium Italic'), local('Formular-MediumItalic'),
+    url('/public/font/Formular-MediumItalic.eot?#iefix')
+      format('embedded-opentype'),
+    url('/public/font/Formular-MediumItalic.woff2') format('woff2'),
+    url('/public/font/Formular-MediumItalic.woff') format('woff'),
+    url('/public/font/Formular-MediumItalic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Formular';
+  src: url('/public/font/Formular-Italic.eot');
+  src: local('Formular Italic'), local('Formular-Italic'),
+    url('/public/font/Formular-Italic.eot?#iefix') format('embedded-opentype'),
+    url('/public/font/Formular-Italic.woff2') format('woff2'),
+    url('/public/font/Formular-Italic.woff') format('woff'),
+    url('/public/font/Formular-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Formular';
+  src: url('/public/font/Formular-LightItalic.eot');
+  src: local('Formular Light Italic'), local('Formular-LightItalic'),
+    url('/public/font/Formular-LightItalic.eot?#iefix')
+      format('embedded-opentype'),
+    url('/public/font/Formular-LightItalic.woff2') format('woff2'),
+    url('/public/font/Formular-LightItalic.woff') format('woff'),
+    url('/public/font/Formular-LightItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Formular';
+  src: url('/public/font/Formular-Black.eot');
+  src: local('Formular Black'), local('Formular-Black'),
+    url('/public/font/Formular-Black.eot?#iefix') format('embedded-opentype'),
+    url('/public/font/Formular-Black.woff2') format('woff2'),
+    url('/public/font/Formular-Black.woff') format('woff'),
+    url('/public/font/Formular-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Formular';
+  src: url('/public/font/Formular-Light.eot');
+  src: local('Formular Light'), local('Formular-Light'),
+    url('/public/font/Formular-Light.eot?#iefix') format('embedded-opentype'),
+    url('/public/font/Formular-Light.woff2') format('woff2'),
+    url('/public/font/Formular-Light.woff') format('woff'),
+    url('/public/font/Formular-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Formular';
+  src: url('/public/font/Formular.eot');
+  src: local('Formular'),
+    url('/public/font/Formular.eot?#iefix') format('embedded-opentype'),
+    url('/public/font/Formular.woff2') format('woff2'),
+    url('/public/font/Formular.woff') format('woff'),
+    url('/public/font/Formular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Formular';
+  src: url('/public/font/Formular-Medium.eot');
+  src: local('Formular Medium'), local('Formular-Medium'),
+    url('/public/font/Formular-Medium.eot?#iefix') format('embedded-opentype'),
+    url('/public/font/Formular-Medium.woff2') format('woff2'),
+    url('/public/font/Formular-Medium.woff') format('woff'),
+    url('/public/font/Formular-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Formular';
+  src: url('/public/font/Formular-BoldItalic.eot');
+  src: local('Formular Bold Italic'), local('Formular-BoldItalic'),
+    url('/public/font/Formular-BoldItalic.eot?#iefix')
+      format('embedded-opentype'),
+    url('/public/font/Formular-BoldItalic.woff2') format('woff2'),
+    url('/public/font/Formular-BoldItalic.woff') format('woff'),
+    url('/public/font/Formular-BoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Formular';
+  src: url('/public/font/Formular-Bold.eot');
+  src: local('Formular Bold'), local('Formular-Bold'),
+    url('/public/font/Formular-Bold.eot?#iefix') format('embedded-opentype'),
+    url('/public/font/Formular-Bold.woff2') format('woff2'),
+    url('/public/font/Formular-Bold.woff') format('woff'),
+    url('/public/font/Formular-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* .layout {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  gap: 32px;
+  height: 100dvh;
+}  */
+
+/* https://dev.to/afif/i-made-100-css-loaders-for-your-next-project-4eje */
+.loader {
+  width: 45px;
+  aspect-ratio: 0.75;
+  --c: no-repeat linear-gradient(theme(colors.stone.800) 0 0);
+  background: var(--c) 0% 50%, var(--c) 50% 50%, var(--c) 100% 50%;
+  background-size: 20% 50%;
+  animation: loading 1s infinite linear;
+}
+.slider::-webkit-slider-thumb {
+  border: 3px solid white;
+  background-color: red;
+  height: 1.5rem;
+  width: 1.5rem;
+  border-radius: 50%;
+  -webkit-appearance: none;
+  cursor: pointer;
+}
+
+@keyframes loading {
+  20% {
+    background-position: 0% 0%, 50% 50%, 100% 50%;
+  }
+  40% {
+    background-position: 0% 100%, 50% 0%, 100% 50%;
+  }
+  60% {
+    background-position: 0% 50%, 50% 100%, 100% 0%;
+  }
+  80% {
+    background-position: 0% 50%, 50% 50%, 100% 100%;
+  }
+}
+/* ==================================================================================================================*/
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  color: #566879;
+  font-size: 25px;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 2px 5px 0px rgba(11, 11, 11, 0.38);
+  padding: 16px 12px;
+  font-size: 14px;
+  transition: all 0.3s ease 0s;
+}
+.swiper-button-next:hover::after,
+.swiper-button-prev:hover::after {
+  color: #fff;
+  background: #e31e24;
+  box-shadow: 0px 4px 10px 0px rgba(227, 30, 36, 0.2);
+}
+
+.previously-arrows .swiper-button-next,
+.previously-arrows .swiper-button-prev {
+  top: unset;
+  z-index: 20;
+}
+.sales-products .swiper-button-next,
+.sales-products .swiper-button-prev {
+  margin-top: -60px;
+}
+
+/* ==================================================================================================================*/
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.modal-overlay {
+  transition: all 0.3s ease-in-out;
+}
+
+.modal-hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.product-modal {
+  animation: fadeIn 0.3s ease-out;
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+.modal-hidden .product-modal {
+  transform: scale(0.95);
+}
+
+.animate-fade-in {
+  animation: fade-in 0.3s ease-in-out;
+}
+
+/* Add this to your CSS or global styles */
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+/* Modal.css */

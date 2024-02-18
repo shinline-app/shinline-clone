@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "title": "Select by tire size",
+    "path": "assortiments",
+    "imgUrl": "by-extent"
+  },
+  {
+    "id": 2,
+    "title": "Select tire manufacturer",
+    "path": "brands",
+    "imgUrl": "by-brand"
+  },
+  {
+    "id": 3,
+    "title": "Select by car trade-mark",
+    "path": "trademarks",
+    "imgUrl": "by-model"
+  }
+]
