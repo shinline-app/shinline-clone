@@ -11,3 +11,5 @@ We wanna separate the folders to main, frontend, backend, collabrate-name.
 I'm changing readme, I'm Stiven!
 
 I'll open a new initial tag with on 1.0.0
+
+I changed profile name to jakhongir20
