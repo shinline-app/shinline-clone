@@ -13,3 +13,6 @@ I'm changing readme, I'm Stiven!
 I'll open a new initial tag with on 1.0.0
 
 I changed profile name to jakhongir20
+change
+
+## [1.0.0] - 2021-07-31
