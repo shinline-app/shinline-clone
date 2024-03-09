@@ -16,6 +16,7 @@ jobs:
           path: node_modules
           key: deps-node-modules-${{ hashFiles('frontend/package-lock.json') }}
       - name: Install dependencies
+        working-directory: frontend
         if: steps.cache.outputs.cache-hit != 'true'
         run: npm ci
       - name: Lint code
@@ -32,6 +33,7 @@ jobs:
           path: node_modules
           key: deps-node-modules-${{ hashFiles('frontend/package-lock.json') }}
       - name: Install dependencies
+        working-directory: frontend
         if: steps.cache.outputs.cache-hit != 'true'
         run: npm ci
       - name: Test code
@@ -56,6 +58,7 @@ jobs:
           path: node_modules
           key: deps-node-modules-${{ hashFiles('frontend/package-lock.json') }}
       - name: Install dependencies
+        working-directory: frontend
         if: steps.cache.outputs.cache-hit != 'true'
         run: npm ci
       - name: Build website
