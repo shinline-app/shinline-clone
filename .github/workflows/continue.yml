@@ -9,16 +9,16 @@ jobs:
     steps:
       - name: Get code
         uses: actions/checkout@v3
-      - name: Cache dependencies
-        id: cache
-        uses: actions/cache@v3
-        with:
-          path: node_modules
-          key: deps-node-modules-${{ hashFiles('frontend/package-lock.json') }}
+      # - name: Cache dependencies
+      #   id: cache
+      #   uses: actions/cache@v3
+      # with:
+      #   path: node_modules
+      #   key: deps-node-modules-${{ hashFiles('frontend/package-lock.json') }}
       - name: Install dependencies
-        working-directory: frontend
-        if: steps.cache.outputs.cache-hit != 'true'
+        # if: steps.cache.outputs.cache-hit != 'true'
         run: npm ci
+        working-directory: ./frontend
       - name: Lint code
         run: npm run lint
   test:
@@ -26,16 +26,16 @@ jobs:
     steps:
       - name: Get code
         uses: actions/checkout@v3
-      - name: Cache dependencies
-        id: cache
-        uses: actions/cache@v3
-        with:
-          path: node_modules
-          key: deps-node-modules-${{ hashFiles('frontend/package-lock.json') }}
+      # - name: Cache dependencies
+      #   id: cache
+      #   uses: actions/cache@v3
+      #   with:
+      #     path: node_modules
+      # key: deps-node-modules-${{ hashFiles('frontend/package-lock.json') }}
       - name: Install dependencies
-        working-directory: frontend
-        if: steps.cache.outputs.cache-hit != 'true'
+        # if: steps.cache.outputs.cache-hit != 'true'
         run: npm ci
+        working-directory: ./frontend
       - name: Test code
         continue-on-error: true
         id: run-tests
@@ -51,16 +51,16 @@ jobs:
     steps:
       - name: Get code
         uses: actions/checkout@v3
-      - name: Cache dependencies
-        id: cache
-        uses: actions/cache@v3
-        with:
-          path: node_modules
-          key: deps-node-modules-${{ hashFiles('frontend/package-lock.json') }}
+      # - name: Cache dependencies
+      #   id: cache
+      #   uses: actions/cache@v3
+      #   with:
+      #     path: node_modules
+      #     key: deps-node-modules-${{ hashFiles('frontend/package-lock.json') }}
       - name: Install dependencies
-        working-directory: frontend
-        if: steps.cache.outputs.cache-hit != 'true'
+        # if: steps.cache.outputs.cache-hit != 'true'
         run: npm ci
+        working-directory: ./frontend
       - name: Build website
         id: build-website
         run: npm run build
