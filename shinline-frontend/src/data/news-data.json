@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "Order through the site, get a discount",
+    "date": "",
+    "view": 3780,
+    "description": "Tire Line Company LLP offers to take advantage of a discount on the entire range of tires.",
+    "imgUrl": "/public/img/news/news1.png"
+  },
+  {
+    "id": 2,
+    "title": "ZoodPay - buy tires in installments for 3 months! Tires can be bought with an advance payment of 25%",
+    "date": "",
+    "view": 3780,
+    "description": "Installment payment in 4 equal installments",
+    "imgUrl": "/public/img/news/news2.png"
+  },
+  {
+    "id": 3,
+    "title": "Redemption of truck tires, in Nur-Sultan and Petropavlovsk",
+    "date": "",
+    "view": 3780,
+    "description": "Tire Line Company LLP offers to take advantage of a discount on the entire range of tires.",
+    "imgUrl": "/public/img/news/news3.png"
+  },
+  {
+    "id": 4,
+    "title": "Order through the site, get a discount",
+    "date": "",
+    "view": 3780,
+    "description": "Tire Line Company LLP offers to take advantage of a discount on the entire range of tires.",
+    "imgUrl": "/public/img/news/news4.png"
+  },
+  {
+    "id": 20,
+    "title": "Multicard - buy tires in installments for 3 months! Tires can be bought with an advance payment of 25%",
+    "date": "",
+    "view": 3780,
+    "description": "Installment payment in 4 equal installments",
+    "imgUrl": "/public/img/news/news2.png"
+  },
+  {
+    "id": 30,
+    "title": "Shines of truck tires, in Tashkent",
+    "date": "",
+    "view": 3780,
+    "description": "Tire Line Company LLP offers to take advantage of a discount on the entire range of tires.",
+    "imgUrl": "/public/img/news/news3.png"
+  }
+]

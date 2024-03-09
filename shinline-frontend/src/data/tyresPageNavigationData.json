@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "title": "Tire sizes",
+    "badge": "",
+    "showBadge": false,
+    "img": "../../public/img/tyres/tire_mini.png"
+  },
+  {
+    "id": 2,
+    "title": "Select tire manufacturer",
+    "badge": "Brands",
+    "showBadge": true,
+    "img": "../../public/img/tyres/brand_mini.png"
+  },
+  {
+    "id": 3,
+    "title": "Select by car brand",
+    "badge": "",
+    "showBadge": false,
+    "img": "../../public/img/tyres/car_mini.png"
+  }
+]

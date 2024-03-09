@@ -1,0 +1,104 @@
+[
+  {
+    "id": 1,
+    "title": "Winter tires Sailun Ice Blazer Alpine Plus 175/70 R13 82T",
+    "imageSrc": [
+      "https://shinline.kz/upload/iblock/429/429de8778e03d3a4f0c8fd9a442652b9.png",
+      "https://shinline.kz/upload/iblock/0a1/0a194d7edf5b19c0fc3a8c09e0538706.png",
+      "https://shinline.kz/upload/iblock/5b9/5b9ea53520ccd897c64a725d9cd64faf.png",
+      "https://shinline.kz/upload/iblock/e14/e14e2f1a98af2b3d8cef9f65f6ecb260.jpg"
+    ],
+    "imageAlt": "Front of men's Basic Tee in black.",
+    "unitPrice": 45,
+    "color": "Black",
+    "soldOut": false,
+    "seasonTypes": ["summer", "winter"],
+    "views": 12,
+    "brandSrc": "contyre"
+  },
+  {
+    "id": 143,
+    "title": "Alpine Plus 175/70 R13 82T",
+    "imageSrc": [
+      "https://shinline.kz/upload/iblock/5b9/5b9ea53520ccd897c64a725d9cd64faf.png",
+      "https://shinline.kz/upload/iblock/e14/e14e2f1a98af2b3d8cef9f65f6ecb260.jpg",
+      "https://shinline.kz/upload/iblock/429/429de8778e03d3a4f0c8fd9a442652b9.png",
+      "https://shinline.kz/upload/iblock/0a1/0a194d7edf5b19c0fc3a8c09e0538706.png"
+    ],
+    "imageAlt": "Front of men's Basic Tee in black.",
+    "unitPrice": 60,
+    "color": "Black",
+    "soldOut": false,
+    "seasonTypes": ["studded", "winter"],
+    "views": 30,
+    "brandSrc": "dayton"
+  },
+  {
+    "id": 112,
+    "title": "Winter tires Sailun Ice Blazer Alpine Plus 175/70 R13 82T",
+    "imageSrc": [
+      "https://shinline.kz/upload/iblock/5b9/5b9ea53520ccd897c64a725d9cd64faf.png",
+      "https://shinline.kz/upload/iblock/429/429de8778e03d3a4f0c8fd9a442652b9.png",
+      "https://shinline.kz/upload/iblock/0a1/0a194d7edf5b19c0fc3a8c09e0538706.png",
+      "https://shinline.kz/upload/iblock/e14/e14e2f1a98af2b3d8cef9f65f6ecb260.jpg"
+    ],
+    "imageAlt": "Front of men's Basic Tee in black.",
+    "unitPrice": 35,
+    "color": "Black",
+    "soldOut": false,
+    "seasonTypes": ["no-studded", "summer"],
+    "views": 12,
+    "brandSrc": "falken"
+  },
+  {
+    "id": 1765,
+    "title": "Winter tires Sailun Ice Blazer Alpine Plus 175/70 R13 82T",
+    "imageSrc": [
+      "https://shinline.kz/upload/iblock/e14/e14e2f1a98af2b3d8cef9f65f6ecb260.jpg",
+      "https://shinline.kz/upload/iblock/429/429de8778e03d3a4f0c8fd9a442652b9.png",
+      "https://shinline.kz/upload/iblock/0a1/0a194d7edf5b19c0fc3a8c09e0538706.png",
+      "https://shinline.kz/upload/iblock/5b9/5b9ea53520ccd897c64a725d9cd64faf.png"
+    ],
+    "imageAlt": "Front of men's Basic Tee in black.",
+    "unitPrice": 45,
+    "color": "Black",
+    "soldOut": false,
+    "seasonTypes": ["all-seasons", "no-studded"],
+    "views": 12,
+    "brandSrc": "firelli"
+  },
+  {
+    "id": 1435,
+    "title": "Winter tires Sailun Ice Blazer Alpine Plus 175/70 R13 82T",
+    "imageSrc": [
+      "https://shinline.kz/upload/iblock/0a1/0a194d7edf5b19c0fc3a8c09e0538706.png",
+      "https://shinline.kz/upload/iblock/429/429de8778e03d3a4f0c8fd9a442652b9.png",
+      "https://shinline.kz/upload/iblock/5b9/5b9ea53520ccd897c64a725d9cd64faf.png",
+      "https://shinline.kz/upload/iblock/e14/e14e2f1a98af2b3d8cef9f65f6ecb260.jpg"
+    ],
+    "imageAlt": "Front of men's Basic Tee in black.",
+    "unitPrice": 60,
+    "color": "Black",
+    "soldOut": false,
+    "seasonTypes": ["studded", "winter"],
+    "views": 12,
+    "brandSrc": "firemax"
+  },
+  {
+    "id": 11342,
+    "title": "Winter tires Sailun Ice Blazer Alpine Plus 175/70 R13 82T",
+    "imageSrc": [
+      "https://shinline.kz/upload/iblock/429/429de8778e03d3a4f0c8fd9a442652b9.png",
+      "https://shinline.kz/upload/iblock/0a1/0a194d7edf5b19c0fc3a8c09e0538706.png",
+      "https://shinline.kz/upload/iblock/5b9/5b9ea53520ccd897c64a725d9cd64faf.png",
+      "https://shinline.kz/upload/iblock/e14/e14e2f1a98af2b3d8cef9f65f6ecb260.jpg"
+    ],
+    "imageAlt": "Front of men's Basic Tee in black.",
+    "unitPrice": 35,
+    "color": "Black",
+    "soldOut": false,
+    "seasonTypes": ["no-studded"],
+    "views": 12,
+    "brandSrc": "odyking"
+  }
+]

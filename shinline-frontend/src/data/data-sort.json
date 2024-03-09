@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "label": "Popular first",
+    "value": "popular-first"
+  },
+  {
+    "id": 143,
+    "label": "Cheaper first",
+    "value": "cheaper-first"
+  },
+  {
+    "id": 132,
+    "label": "More expensive first",
+    "value": "more-exp-first"
+  },
+  {
+    "id": 14343,
+    "label": "New",
+    "value": "new"
+  },
+  {
+    "id": 41433,
+    "label": "New test",
+    "value": "new-test"
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "id": 32651,
+    "colors": {
+      "from": "#FF5C00",
+      "to": "#FCC537"
+    },
+    "path": "/",
+    "name": "Summer tires",
+    "value": "summer-tires",
+    "icon": "sunny"
+  },
+  {
+    "id": 35421,
+    "colors": {
+      "from": "#0E3D39",
+      "to": "#28CA55"
+    },
+    "path": "/",
+    "name": "All season tires",
+    "value": "winter-summer",
+    "icon": "winter-summer"
+  },
+  {
+    "id": 3221,
+    "colors": {
+      "from": "#3481B8",
+      "to": "#4D99D0"
+    },
+    "path": "/",
+    "name": "Winter tires",
+    "value": "winter-tires",
+    "icon": "winter"
+  },
+  {
+    "id": 3241,
+    "colors": {
+      "from": "#EE3636",
+      "to": "#F18A3F"
+    },
+    "path": "/",
+    "name": "Studded",
+    "value": "studded",
+    "icon": "winter-tires"
+  },
+  {
+    "id": 321,
+    "colors": {
+      "from": "#6D0293",
+      "to": "#7F43FF"
+    },
+    "path": "/",
+    "name": "Not studded",
+    "value": "not-studded",
+    "icon": "no-winter"
+  }
+]

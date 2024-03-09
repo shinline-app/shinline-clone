@@ -1,0 +1,85 @@
+[
+    {
+        "id":1,
+        "title":"Winter tires Sailun Ice Blazer Alpine Plus 175/70 R13 82T",
+        "description":"Remaining from 4 to 20 pieces",
+        "img":"../../public/img/tyres/tyre1.jpg",
+        "parameter":"46500T",
+        "remaining":12,
+        "avaiable":"avaiable"
+        
+    },
+    {
+        "id":2,
+        "title":"Winter tires Sailun Ice Blazer Alpine Plus 175/70 R13 82T",
+        "description":"Remaining from 4 to 20 pieces",
+        "img":"../../public/img/tyres/tyre1.jpg",
+        "parameter":"46500T",
+        "remaining":12,
+        "avaiable":"available"
+    },
+    {
+        "id":3,
+        "title":"Winter tires Sailun Ice Blazer Alpine Plus 175/70 R13 82T",
+        "description":"Remaining from 4 to 20 pieces",
+        "img":"../../public/img/tyres/tyre1.jpg",
+        "parameter":"46500T",
+        "remaining":12,
+        "avaiable":"avaiable"
+    },
+    {
+        "id":4,
+        "title":"Winter tires Sailun Ice Blazer Alpine Plus 175/70 R13 82T",
+        "description":"Remaining from 4 to 20 pieces",
+        "img":"../../public/img/tyres/tyre1.jpg",
+        "parameter":"46500T",
+        "remaining":12,
+        "avaiable":"avaiable"
+    },
+    {
+        "id":5,
+        "title":"Winter tires Sailun Ice Blazer Alpine Plus 175/70 R13 82T",
+        "description":"Remaining from 4 to 20 pieces",
+        "img":"../../public/img/tyres/tyre1.jpg",
+        "parameter":"46500T",
+        "remaining":12,
+        "avaiable":"avaiable"
+        
+    },
+    {
+        "id":6,
+        "title":"Winter tires Sailun Ice Blazer Alpine Plus 175/70 R13 82T",
+        "description":"Remaining from 4 to 20 pieces",
+        "img":"../../public/img/tyres/tyre1.jpg",
+        "parameter":"46500T",
+        "remaining":12,
+        "avaiable":"avaiable"
+    },
+    {
+        "id":7,
+        "title":"Winter tires Sailun Ice Blazer Alpine Plus 175/70 R13 82T",
+        "description":"Remaining from 4 to 20 pieces",
+        "img":"../../public/img/tyres/tyre1.jpg",
+        "parameter":"46500T",
+        "remaining":12,
+        "avaiable":"avaiable"
+    },
+    {
+        "id":8,
+        "title":"Winter tires Sailun Ice Blazer Alpine Plus 175/70 R13 82T",
+        "description":"Remaining from 4 to 20 pieces",
+        "img":"../../public/img/tyres/tyre1.jpg",
+        "parameter":"46500T",
+        "remaining":12,
+        "avaiable":"avaiable"
+    },
+    {
+        "id":9,
+        "title":"Winter tires Sailun Ice Blazer Alpine Plus 175/70 R13 82T",
+        "description":"Remaining from 4 to 20 pieces",
+        "img":"../../public/img/tyres/tyre1.jpg",
+        "parameter":"46500T",
+        "remaining":12,
+        "avaiable":"avaiable"
+    }
+]
